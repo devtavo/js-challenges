@@ -8,7 +8,8 @@ const fibonacci = (n) => {
     n2 = nextTerm;
     resultado.push(n1);
   }
-  return resultado
+  
+  return resultado; 
 }
-
+ 
 module.exports = fibonacci;
